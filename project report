@@ -1,0 +1,99 @@
+                                                              Project Report
+                                                           Ashwin C  24BCY10218
+
+
+  Project Title- Open Source Software Audit – Python
+Introduction
+Open Source Software (OSS) plays a crucial role in modern computing. It allows users to freely access, modify, and distribute software. This freedom promotes collaboration, transparency, and innovation.
+Python is one of the most popular open-source programming languages in the world. It is widely used in various domains such as web development, artificial intelligence, data science, and automation.
+This project focuses on analyzing Python as an open-source software. It includes both theoretical study and practical understanding through shell scripting in a Linux environment.
+________________________________________
+ 2. Part A – Origin and Philosophy
+A1: Origin of Python
+Python was developed by Guido van Rossum and released in 1991.
+During that time, programming languages were complex and difficult to use. Python was designed to simplify programming and improve code readability. The main goal was to make programming accessible to everyone.
+Python emphasizes clean and readable code, which helps developers write efficient programs with fewer lines of code.
+________________________________________
+
+
+A2: License of Python
+Python is distributed under the Python Software Foundation (PSF) License.
+This license allows users to:
+●	Use the software freely
+●	Modify the source code
+●	Distribute the software
+Python supports all four freedoms of open-source software:
+1.	Freedom to run the program
+2.	Freedom to study the source code
+3.	Freedom to modify the software
+4.	Freedom to distribute copies
+________________________________________
+A3: Ethics of Open Source
+Open source software promotes collaboration and knowledge sharing. Developers from around the world contribute to improving software.
+Advantages:
+●	Encourages innovation
+●	Builds community
+●	Provides transparency
+Challenges:
+●	Companies may use open-source software for profit
+●	Lack of centralized control
+Despite challenges, open source remains a powerful model for software development.
+________________________________________
+
+
+
+ 3. Part B – Linux Footprint
+Python is widely used in Linux operating systems.
+●	It is often pre-installed in Linux distributions
+●	It can be installed using package managers
+●	The executable is usually located in system directories
+Python runs as a normal user, which enhances system security.
+Linux provides a strong environment for Python development and execution. It allows users to manage packages, run scripts, and automate tasks efficiently.
+________________________________________
+ 4. Part C – FOSS Ecosystem
+Python is part of a large Free and Open Source Software (FOSS) ecosystem.
+It supports various technologies:
+●	Web frameworks (Django, Flask)
+●	Data science tools (NumPy, Pandas)
+●	Machine learning libraries (TensorFlow, Scikit-learn)
+Python depends on lower-level languages like C for performance.
+It has a huge global community that contributes to its development. Developers collaborate through platforms like GitHub and forums.
+________________________________________
+ 5. Part D – Open Source vs Proprietary Software
+Feature	Open Source (Python)	Proprietary Software
+Cost	Free	Paid
+Source Code	Open	Closed
+Flexibility	High	Limited
+Customization	Allowed	Restricted
+Community Support	Strong	Limited
+Open-source software provides more flexibility and freedom compared to proprietary software.
+________________________________________
+ 6. Practical Implementation
+This project includes practical work using shell scripting in a Linux environment.
+Five scripts were developed:
+1.	System Identity Report
+2.	Python Package Inspector
+3.	Disk and Permission Auditor
+4.	Log File Analyzer
+5.	Open Source Manifest Generator
+These scripts demonstrate:
+●	System-level operations
+●	File handling
+●	Command usage
+●	Automation
+
+________________________________________
+ 7. Learning Outcomes
+This project helped in:
+●	Understanding open-source software concepts
+●	Learning about Python’s origin and features
+●	Gaining experience with Linux commands
+●	Developing shell scripting skills
+●	Improving logical thinking and problem-solving
+________________________________________
+
+ 8. Conclusion
+Python is one of the most powerful and widely used open-source programming languages. It provides simplicity, flexibility, and strong community support.
+This project helped in understanding both theoretical and practical aspects of open-source software. It also highlighted the importance of Linux and shell scripting in real-world applications.
+Overall, this project enhanced knowledge and provided valuable technical experience.
+
