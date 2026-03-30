@@ -1,26 +1,19 @@
 #!/bin/bash
-# Script 2: Python Package Inspector
 
-PACKAGE="python3"
 
-echo "Checking if Python is installed..."
+PACKAGE="firefox"
 
-if command -v python3 &> /dev/null
-then
-    echo "Python is installed"
-    python3 --version
+if dpkg -l | grep -q $PACKAGE; then
+    echo "$PACKAGE is installed."
+    dpkg -l | grep $PACKAGE
 else
-    echo "Python is NOT installed"
+    echo "$PACKAGE is NOT installed."
 fi
 
-echo ""
-echo "About Python:"
-
 case $PACKAGE in
-    python3)
-        echo "Python is an open-source programming language known for simplicity and readability."
-        ;;
-    *)
-        echo "Unknown package"
-        ;;
+    firefox) echo "Firefox: promotes open and secure web browsing" ;;
+    vlc) echo "VLC: open media player" ;;
+    git) echo "Git: distributed version control system" ;;
+    apache2) echo "Apache: powers web servers globally" ;;
+    *) echo "Unknown package" ;;
 esac
