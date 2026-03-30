@@ -1,23 +1,21 @@
 #!/bin/bash
-# Script 1: System Identity Report
 
-STUDENT_NAME="Ashwin C"
-SOFTWARE="Python"
+STUDENT_NAME="Your Name"
+SOFTWARE_CHOICE="Firefox"
 
 KERNEL=$(uname -r)
 USER_NAME=$(whoami)
 UPTIME=$(uptime -p)
 DATE=$(date)
-HOME_DIR=$HOME
+DISTRO=$(grep PRETTY_NAME /etc/os-release | cut -d '"' -f2)
 
 echo "================================"
 echo " Open Source Audit — $STUDENT_NAME"
 echo "================================"
-echo "Software       : $SOFTWARE"
+echo "Software       : $SOFTWARE_CHOICE"
+echo "Kernel         : $KERNEL"
 echo "User           : $USER_NAME"
-echo "Home Directory : $HOME_DIR"
-echo "Kernel Version : $KERNEL"
+echo "Distro         : $DISTRO"
 echo "Uptime         : $UPTIME"
-echo "Current Date   : $DATE"
-echo "License        : GNU GPL (Linux OS)"
-echo "================================"
+echo "Date & Time    : $DATE"
+echo "License        : GNU/Linux (GPL based)"
