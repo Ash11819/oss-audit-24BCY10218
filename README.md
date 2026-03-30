@@ -2,8 +2,8 @@
 
 ## Student Details
 
-* **Name:** [Your Name]
-* **Registration Number:** [Your Reg No.]
+* **Name:** Ashwin C
+* **Registration Number:** 24BCY10218
 * **Course:** Open Source Software
 * **University:** VIT
 
